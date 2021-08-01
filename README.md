@@ -25,3 +25,11 @@ to run a php server you can use
 `````
 php -S 127.0.0.1:8000 -t public
 `````
+
+
+to check the requirements for a specific application use the following comment:
+
+
+````
+`composer require symfony/requirements-checker
+````

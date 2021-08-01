@@ -38,3 +38,5 @@ after checking for compatibility under 127.0.0.1:8000/check.php you can remove t
 ````
 composer remove symfony/requirements-checker
 ````
+
+from symfony.sh website you can download the missing packages using symfony flex

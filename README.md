@@ -39,4 +39,13 @@ after checking for compatibility under 127.0.0.1:8000/check.php you can remove t
 composer remove symfony/requirements-checker
 ````
 
-from symfony.sh website you can download the missing packages using symfony flex
+from symfony.sh website you can download the missing packages using symfony flex.
+
+for example if you want to install symfony twig-bundle you can use 
+````
+composer require symfony/twig-bundle
+````
+or you can use Aliases and do as following : 
+````
+composer require twig
+````

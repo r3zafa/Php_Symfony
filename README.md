@@ -61,3 +61,13 @@ command to install the package for DB:
 composer require doctrine
 ````
 
+
+installing a package to avoid manually creating of models, controllers and other files:
+
+````
+composer require maker
+````
+````
+bin/console make:controller DefaultController
+````
+

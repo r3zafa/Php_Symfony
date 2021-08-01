@@ -54,3 +54,10 @@ command to list all available commands in symfony:
 ````
 bin/console
 ````
+
+command to install the package for DB:
+
+````
+composer require doctrine
+````
+

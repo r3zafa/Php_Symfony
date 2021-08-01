@@ -70,4 +70,5 @@ composer require maker
 ````
 bin/console make:controller DefaultController
 ````
-
+Note: After i have used this comment i could not open the page under 127.0.0.1:8000/default 
+````be sure that you are in the same APP_ENV=[dev/test/...] that your routes.yaml are in. ````

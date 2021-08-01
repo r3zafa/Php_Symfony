@@ -31,5 +31,5 @@ to check the requirements for a specific application use the following comment:
 
 
 ````
-`composer require symfony/requirements-checker
+composer require symfony/requirements-checker
 ````

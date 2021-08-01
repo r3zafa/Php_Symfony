@@ -49,3 +49,8 @@ or you can use Aliases and do as following :
 ````
 composer require twig
 ````
+
+command to list all available commands in symfony:
+````
+bin/console
+````

@@ -33,3 +33,8 @@ to check the requirements for a specific application use the following comment:
 ````
 composer require symfony/requirements-checker
 ````
+
+after checking for compatibility under 127.0.0.1:8000/check.php you can remove this package with following comment:
+````
+composer remove symfony/requirements-checker
+````

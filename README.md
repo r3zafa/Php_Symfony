@@ -33,3 +33,31 @@ to check the requirements for a specific application use the following comment:
 ````
 composer require symfony/requirements-checker
 ````
+
+after checking for compatibility under 127.0.0.1:8000/check.php you can remove this package with following comment:
+````
+composer remove symfony/requirements-checker
+````
+
+from symfony.sh website you can download the missing packages using symfony flex.
+
+for example if you want to install symfony twig-bundle you can use 
+````
+composer require symfony/twig-bundle
+````
+or you can use Aliases and do as following : 
+````
+composer require twig
+````
+
+command to list all available commands in symfony:
+````
+bin/console
+````
+
+command to install the package for DB:
+
+````
+composer require doctrine
+````
+
